@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {re:
 	int A = 0;
-	cout << "입력하고 싶은 개수만큼의 정수를 입력하시오(1~10). "; cin >> A;
+	cout << "입력하고 싶은 정수의 개수를 1부터 10까지의 정수로 입력하시오. "; cin >> A;
 
 
 	if (A < 1)
