@@ -52,14 +52,14 @@ int main()
 		}
 	}
 
-	cout << "입력한 숫자들의 정렬 : ";
+	cout << "입력한 숫자들의 정렬 : { ";
 
-	for (int i = 0; i < A; i++)
+	for (int i = 0; i < A-1; i++)
 	{
 		cout << Array[i] << ", ";
 	}
 
-	cout << endl;
+	cout << Array[A-1] << " }" << endl;
 
 	delete[] Array;
 
